@@ -1,0 +1,297 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+header {
+    background: url(images/explore7.png);
+    height: 69vh;
+    background-size:auto
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+    .nav-area li {
+        display: inline-block;
+    }
+
+        .nav-area li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 20px;
+            font-family: poppins;
+            font-size: 20px;
+        }
+
+            .nav-area li a:hover {
+                background: #fff;
+                color: #333;
+            }
+
+.logo img {
+    width: 225px;
+    float: left;
+    height: auto;
+}
+
+
+
+/* Make reservation */
+.tm-res {
+    background: #e82330;
+    padding: 2%;
+}
+
+
+.tm-resbutton p {
+    display: table;
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 2.5vw;
+    padding: 2%;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+}
+
+.tm-resbutton a {
+    text-decoration: none;
+}
+
+.tm-resbutton p:hover {
+    color: #de2deb;
+    background: #fff;
+}
+
+
+/* footer */
+
+.tm-footer {
+    background: #211f17;
+    display: block;
+    padding: 20px;
+    position: relative;
+}
+
+.tm-us {
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 4%
+}
+
+.tm-address {
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 25%
+}
+
+    .tm-us .bold, .tm-address .bold {
+        color: #31deeb;
+        font-size: 32px;
+        font-weight: 700;
+        padding-bottom: 4%;
+    }
+
+    .tm-us p, .tm-address p {
+        color: #30e6bb;
+        font-size: 30px;
+    }
+
+.tm-media {
+    display: inline;
+    margin: 0 0 0 59%;
+}
+
+    .tm-media img {
+        margin: 0.5%;
+        width: 3%;
+        height: auto;
+    }
+
+
+
+/* booking */
+.tm-main {
+    background: #211f17;
+    padding: 2%;
+}
+    .tm-main p {
+        display: table;
+        max-width: 30%;
+        margin: 0 auto;
+        font-size: 4vw;
+        padding: 2%;
+        color: #fff;
+        font-weight: 700;
+    }
+
+
+.tm-booking {
+    
+    background: url(images/book4.png);
+    height: 100vh;
+    background-size:cover;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.tm-form1, .tm-form2 {
+    padding: 2% 5%;
+}
+
+div.vertical-line {
+    width: 0.15%;
+    background-color: #1ad688;
+    height: 90%;
+    position: absolute;
+    top: 6%;
+    left: 50%;
+}
+
+.tm-form1 {
+    float: left;
+    /*
+    max-width: 39.5%;
+    width: 39.5%;
+*/
+    max-width: 40%;
+    width: 40%;
+}
+
+.tm-form2 {
+    float: right;
+    /*
+    max-width: 39.5%;
+    width: 39.5%;
+*/
+    max-width: 40%;
+    width: 40%;
+}
+
+input, select, textarea,
+input::-webkit-input-placeholder {
+    font-size: 2vw;
+}
+
+input, select, textarea {
+    color: #af3dec;
+}
+
+    input::-webkit-input-placeholder {
+        color: #af3dec;
+    }
+
+    textarea::-webkit-input-placeholder {
+        color: #af3dec;
+    }
+
+
+label {
+    font-size: 2vw;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.tm-booking::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+input[type=text]:nth-child(1), input[type=email], textarea {
+    display: block;
+    margin: 5%;
+    padding: 1% 3%;
+    width: 80%;
+}
+
+textarea {
+    max-width: 80%;
+    resize: none;
+}
+
+#rooms {
+    display: inline-block;
+    margin: 5%;
+    padding: 1% 3%;
+    width: 55%;
+}
+
+#inlinelable {
+    display: inline-block;
+    margin: 5%;
+}
+
+
+
+
+.tm-num1, .tm-num2 {
+    display: inline-block;
+    max-width: 39%;
+    width: 39%;
+    margin: 5%;
+}
+
+#number1, #number2 {
+    width: 30%;
+    padding: 3% 8%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+.range {
+    font-size: 2vw;
+    margin-top: 5%;
+    margin-bottom: 50%;
+    padding: 1% 3%;
+    width: 70%;
+}
+
+
+input[type=submit] {
+    display: block;
+    background: #353535;
+    padding: 1% 3%;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#sub {
+    margin-left: 70%;
+}
+
+#sub2 {
+    margin-left: 5%;
+}
+
+input[type=submit]:hover {
+    color: #ec3d68;
+    border: 1px solid #ec3d68;
+}
+
+input[type=submit]:focus {
+    outline: none;
+}
+
+.arrival {
+    display: block;
+    margin-top: 5%;
+}

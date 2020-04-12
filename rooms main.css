@@ -1,0 +1,202 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+header {
+    background: url(images/room2.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+    .nav-area li {
+        display: inline-block;
+    }
+
+        .nav-area li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 20px;
+            font-family: poppins;
+            font-size: 20px;
+        }
+
+            .nav-area li a:hover {
+                background: #fff;
+                color: #333;
+            }
+
+.logo img {
+    width: 225px;
+    float: left;
+    height: auto;
+}
+
+.text {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: left;
+}
+
+div.text h1 {
+    text-align: left;
+    color: #fff;
+    text-transform: none;
+    font-size: 50px;
+}
+
+/* Make reservation */
+.tm-res {
+    background: #e82330;
+    padding: 2%;
+}
+
+
+.tm-resbutton p {
+    display: table;
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 2.5vw;
+    padding: 2%;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+}
+
+.tm-resbutton a {
+    text-decoration: none;
+}
+
+.tm-resbutton p:hover {
+    color: #de2deb;
+    background: #fff;
+}
+
+
+/* footer */
+
+.tm-footer {
+    background: #211f17;
+    display: block;
+    padding: 20px;
+    position: relative;
+}
+
+.tm-us {
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 4%
+}
+
+.tm-address {
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 25%
+}
+
+    .tm-us .bold, .tm-address .bold {
+        color: #31deeb;
+        font-size: 32px;
+        font-weight: 700;
+        padding-bottom: 4%;
+    }
+
+    .tm-us p, .tm-address p {
+        color: #30e6bb;
+        font-size: 30px;
+    }
+
+.tm-media {
+    display: inline;
+    margin: 0 0 0 59%;
+}
+
+    .tm-media img {
+        margin: 0.5%;
+        width: 3%;
+        height: auto;
+    }
+
+/* rooms page */
+
+.tm-roomsection {
+    display: flex;
+}
+
+.tm-room1 {
+    max-width: 33.33333%;
+    width: 33.333333%;
+    background: #353535;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+}
+
+    .tm-room1 p {
+        font-size: 2.5vw;
+        color: #fff;
+        text-align: center;
+        padding: 5%;
+        z-index: 2;
+        position: relative;
+    }
+
+
+.tm-roomimage {
+    max-width: 100%;
+    width: 100%;
+}
+
+.tm-trans {
+    display: inline-block;
+    position: absolute;
+    top: 78%; /*78*/
+    color: #fff;
+    max-width: 100%;
+    width: 100%;
+    height: 0%; /*0*/
+    background: rgba(53, 53, 53,0.7);
+    opacity: 0; /*0*/
+}
+
+    .tm-trans p {
+        font-size: 1.8vw;
+    }
+
+    .tm-trans div {
+        display: inline-table;
+        width: 40%;
+        max-width: 40%;
+        margin: 2%;
+    }
+
+        .tm-trans div .bold {
+            color: #ff8d9a;
+        }
+
+
+.tm-room1:hover .tm-trans {
+    top: 30%;
+    transition: top 1s, opacity 1s, height 1s;
+    opacity: 1;
+    height: 50%;
+    z-index: 1;
+}

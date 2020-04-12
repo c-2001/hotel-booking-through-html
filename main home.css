@@ -1,0 +1,309 @@
+﻿*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    width:1170px;
+    margin:auto;
+}
+header{
+    background:url(images/photo.png);
+    height:100vh;
+    background-size:cover;
+    background-position:center center;
+    position:relative;
+    background-repeat:no-repeat;
+}
+.nav-area{
+    float:right;
+    list-style:none;
+    margin-top:30px;
+}
+.nav-area li{
+    display:inline-block;
+}
+.nav-area li a{
+    color:#fff;
+    text-decoration:none;
+    padding:5px 20px;
+    font-family:poppins;
+    font-size:20px;
+}
+.nav-area li a:hover{
+    background:#fff;
+    color:#333;
+
+}
+.logo img{
+    width:250px;
+    float:left;
+    height:auto;
+}
+.text{
+    position:absolute;
+    width:600px;
+    height:300px;
+    margin:20% 30%;
+    text-align:left;
+}
+div.text h1 {
+    text-align: left;
+    color: #fff;
+    text-transform: none;
+    font-size: 50px;
+}
+
+/* slider */
+
+.tm-slider {
+    position: relative;
+}
+
+
+.tm-sliderimage {
+    width: 100%;
+    display: block;
+}
+
+.bold {
+    padding-bottom: 5px;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+.simple {
+    font-size: 2.5vw;
+}
+
+.tm-slidertext {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    color: #fff;
+}
+h2 {
+    text-align: center;
+    color: #c41d1d;
+    text-transform: none;
+    font-size: 50px;
+}
+
+.tm-rooms:focus {
+    outline: none;
+}
+
+.tm-rooms a:focus {
+    outline: none;
+}
+
+.tm-rooms {
+    display: block;
+    background: #4c4a4f;
+    max-width: 50%;
+    width: 50%;
+}
+
+
+    .tm-rooms img {
+        max-width:400px;
+        width: 400px;
+    }
+
+
+
+    .tm-rooms p {
+        font-size: 2.5vw;
+        color: #fff;
+        text-align: center;
+        padding: 5%;
+    }
+
+    .tm-rooms a {
+        text-decoration: none;
+    }
+
+        .tm-rooms a p:hover {
+            color: #ec3c6a;
+        }
+
+.s {
+    padding-bottom: 1%;
+}
+
+.flex {
+    display: flex;
+}
+.flex1{
+    display:flex;
+}
+
+
+/* services */
+.tm-serv {
+    background: #ed2458;
+    padding: 2%;
+}
+
+.tm-service {
+    max-width: 30%;
+    width: 30%;
+    margin: 1.5% 12% 1.5% 10%;
+}
+
+.tm-servicesection {
+    display: flex;
+}
+
+.tm-serimage {
+    display: inline-block;
+    max-width: 20%;
+    width: 10%;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+.tm-service div {
+    display: inline-block;
+    max-width: 75%;
+    padding: 5%;
+}
+
+.tm-service p {
+    font-size: 1.5vmax;
+}
+
+.tm-service .b {
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+
+
+/* review */
+
+
+
+.tm-review {
+    background: #353535;
+    padding-bottom: 5%;
+}
+
+    .tm-review::after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+
+.tm-revcon {
+    float: left;
+    padding-left: 5%;
+    max-width: 65%;
+}
+
+    .tm-revcon .b {
+        padding: 3% 0 3% 5%;
+        font-size: 2vw;
+        font-weight: 700;
+    }
+
+    .tm-revcon p {
+        font-size: 1.5vw;
+        color: #fff;
+    }
+
+.tm-rev {
+    padding: 3% 0 0% 5%;
+    max-width: 70%;
+}
+
+
+
+
+.tm-stars {
+    display: block;
+    padding-left: 5%;
+}
+
+    .tm-stars img {
+        width: 4%;
+        height: auto;
+    }
+
+
+
+
+
+
+
+.tm-res {
+    background: #e81e53;
+    padding: 2%;
+}
+
+
+.tm-resbutton p {
+    display: table;
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 2.5vw;
+    padding: 2%;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+}
+
+.tm-resbutton a {
+    text-decoration: none;
+}
+
+.tm-resbutton p:hover {
+    color: #de2deb;
+    background: #fff;
+}
+
+
+
+/* footer */
+
+.tm-footer {
+    background: #211f17;
+    display: block;
+    padding: 20px;
+    position: relative;
+}
+.tm-us {
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 4%
+}
+
+.tm-address {
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 25%
+}
+
+    .tm-us .bold, .tm-address .bold {
+        color:#31deeb;
+        font-size: 32px;
+        font-weight: 700;
+        padding-bottom: 4%;
+    }
+
+    .tm-us p, .tm-address p {
+        color: #30e6bb;
+        font-size: 30px;
+    }
+
+.tm-media {
+    display: inline;
+    margin: 0 0 0 59%;
+}
+
+    .tm-media img {
+        margin: 0.5%;
+        width: 3%;
+        height: auto;
+    }
+

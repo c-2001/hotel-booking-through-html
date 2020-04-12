@@ -1,0 +1,214 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+
+header {
+    background: url(images/explore4.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.nav-area {
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+    .nav-area li {
+        display: inline-block;
+    }
+
+        .nav-area li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 5px 20px;
+            font-family: poppins;
+            font-size: 20px;
+        }
+
+            .nav-area li a:hover {
+                background: #fff;
+                color: #333;
+            }
+
+.logo img {
+    width: 225px;
+    float: left;
+    height: auto;
+}
+
+.text {
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: left;
+}
+
+div.text h1 {
+    text-align: left;
+    color: #fff;
+    text-transform: none;
+    font-size: 50px;
+}
+
+/* Make reservation */
+.tm-res {
+    background: #e82330;
+    padding: 2%;
+}
+
+
+.tm-resbutton p {
+    display: table;
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 2.5vw;
+    padding: 2%;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+}
+
+.tm-resbutton a {
+    text-decoration: none;
+}
+
+.tm-resbutton p:hover {
+    color: #de2deb;
+    background: #fff;
+}
+
+
+/* footer */
+
+.tm-footer {
+    background: #211f17;
+    display: block;
+    padding: 20px;
+    position: relative;
+}
+
+.tm-us {
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 4%
+}
+
+.tm-address {
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 25%
+}
+
+    .tm-us .bold, .tm-address .bold {
+        color: #31deeb;
+        font-size: 32px;
+        font-weight: 700;
+        padding-bottom: 4%;
+    }
+
+    .tm-us p, .tm-address p {
+        color: #30e6bb;
+        font-size: 30px;
+    }
+
+.tm-media {
+    display: inline;
+    margin: 0 0 0 59%;
+}
+
+    .tm-media img {
+        margin: 0.5%;
+        width: 3%;
+        height: auto;
+    }
+
+/* Explore page */
+
+.tm-main {
+    background: #3696bf;
+    padding: 2%;
+}
+
+    .tm-main p {
+        display: table;
+        max-width: 30%;
+        margin: 0 auto;
+        font-size: 4vw;
+        padding: 2%;
+        color: #fff;
+        font-weight: 700;
+    }
+
+
+/* Explore sections */
+
+.tm-exp1, .tm-exp2 {
+    background: #4d7560;
+}
+
+    .tm-exp1::after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+
+    .tm-exp2::after {
+        content: " ";
+        display: block;
+        clear: both;
+    }
+
+
+    .tm-exp1 p {
+        float: right;
+        padding-right: 5%;
+        padding-top: 15%;
+        max-width: 30%;
+        font-size: 3.5vw;
+        color: #fff;
+    }
+
+    .tm-exp2 p {
+        float: left;
+        padding-left: 5%;
+        padding-top: 15%;
+        max-width: 30%;
+        font-size: 3.5vw;
+        color: #fff;
+    }
+
+    .tm-exp1 img {
+        display: block;
+        float: left;
+        max-width: 60%;
+        width: 60%;
+        height: auto;
+    }
+
+    .tm-exp2 img {
+        display: block;
+        float: right;
+        max-width: 60%;
+        width: 60%;
+        height: auto;
+    }
+
+
+.tm-expsection::after {
+    content: ".";
+    font-size: xx-small;
+    visibility: hidden;
+}
